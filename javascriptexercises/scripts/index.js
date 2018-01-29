@@ -21,11 +21,12 @@ submit.addEventListener("click", function (){
 
 });
 
-let anchor = document.getElementByID("anchor");
+let anchor = document.getElementById("anchor");
+let button = document.getElementById("button");
 
 anchor.addEventListener("click", function (){
 document.getElementById("anchor")
-    console.log(anchor.value);
+    console.log(anchor);
 
 
 
